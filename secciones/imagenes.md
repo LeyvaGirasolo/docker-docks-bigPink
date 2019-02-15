@@ -33,7 +33,7 @@ Una vez terminado tu Dockerfile se hace un Build del mismo para agregarlo como
 imagen en tu maquina local
 
 `docker build --tag name-image:tag .`
-
+`docker build -t name-image:tag -f my-dockerfile .`
 
 Podemos ver el hisotorial de nuestra imagen creada
 

@@ -17,3 +17,7 @@
  
 `docker run -d --name apache-centos -p 80:80 apache-centos7:cmd`
 
+- log de un contenedor
+
+`docker logs name-image`
+
